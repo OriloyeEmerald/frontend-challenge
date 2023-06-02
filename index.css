@@ -40,7 +40,7 @@ body {
     
  }
 
-.sidebar {
+ .sidebar {
   position: fixed;
   width: 200px;
   height: 100%;
@@ -52,6 +52,11 @@ body {
 
 .sidebar::-webkit-scrollbar {
     display: none;
+}
+
+ .sidebar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
  .sidebar ul {
    margin-bottom: 2rem;
