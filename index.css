@@ -239,7 +239,7 @@ img {
 
 .a-con {
     display: grid;
-    grid-template-columns: 400px 200px 300px;
+    grid-template-columns: 400px 300px 400px;
     grid-gap: 20px;
 }
  
@@ -251,6 +251,10 @@ img {
      padding: .6rem;
      color: #ccc;
 }
+ .col-0 {
+    background-image: url("images/f3.webp");
+ }
+
 .col-22 {
     background-color: rgba(63, 78, 194, 0.852);
     margin-top: 1rem;
